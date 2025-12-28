@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Library</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<form action="add_book.php" method="post">
+    <input type="text" name="title" placeholder="title" required>
+    <input type="text" name="author" placeholder="author" required>
+    <input type="text" name="category" placeholder="category" required>
+    <input type="number" name="quantity" placeholder="quantity" required>
+    <button>Add Book</button>
+</form>
+
+<form action="main.php" method="get">
+    <input type="text" name="search" placeholder="search by category">
+    <button>Search</button>
+</form>
+
+<form action="main.php" method="get">
+    <button type="submit">View All Books</button>
+</form>
+
+
+</body>
+</html>
